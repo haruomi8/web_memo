@@ -14,7 +14,7 @@ if password == SECRET_PASSWORD:
 
     try:
         with open("vault.txt", "r", encoding="utf-8") as f:
-            st.text(f.read())
+            st.write(f.read())
     except:
         st.warning("text not found")
 
