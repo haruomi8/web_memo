@@ -21,7 +21,7 @@ if password == SECRET_PASSWORD:
     entry = st.text_area("write for file:")
     if st.button("save"):
         with open("vault.txt", "a", encoding="utf-8") as f:
-            save_string = entry + "\n"
+            save_string = entry + "\n" + "\n"
             f.write(save_string) #ファイルに書き込む
             st.success("saved")
         st.rerun() #ページを再実行
