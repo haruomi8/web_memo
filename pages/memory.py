@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("pass_note")
+st.title("link_note")
 SECRET_PASSWORD = "aaa"
 
 # 合言葉入力
